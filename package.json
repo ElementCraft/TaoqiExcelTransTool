@@ -1,0 +1,14 @@
+{
+  "name": "excel-trans-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "TransPlugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wjh",
+  "license": "ISC",
+  "dependencies": {
+    "node-xlsx": "^0.11.2"
+  }
+}
