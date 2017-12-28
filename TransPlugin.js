@@ -38,6 +38,10 @@ function TransExcel(path){
 	const origin = xlsx.parse(path);
 	const data = origin[0].data;
 
+	// 重置
+	arrAllCars = [];
+	arrResultCars = [];
+	arrAllArea = [];
 
 	var currentState = "待售";	// 记录当前读取到的车辆状态分类
 	var currentBrand = "";		// 记录当前读取到的车辆品牌
